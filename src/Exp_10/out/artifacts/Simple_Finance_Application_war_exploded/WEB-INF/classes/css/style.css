@@ -1,0 +1,108 @@
+/* Dark Theme for Personal Finance Tracker */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+a {
+    color: #90caf9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Center the form on screen */
+.centered-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding: 20px;
+}
+
+/* Stylish Form */
+form {
+    max-width: 450px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #00bcd4, #4caf50);
+    border-image-slice: 1;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.1);
+}
+
+/* Label styling (optional if you use <label>) */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #b0bec5;
+    font-size: 0.95rem;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #555;
+    padding: 10px 12px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+form input[type="submit"] {
+    background: linear-gradient(to right, #00bcd4, #4caf50);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background: linear-gradient(to right, #0097a7, #388e3c);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+table th, table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #212121;
+}
+
+table tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
